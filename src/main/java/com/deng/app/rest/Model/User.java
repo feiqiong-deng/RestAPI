@@ -1,4 +1,4 @@
-package Model;
+package com.deng.app.rest.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,10 +14,13 @@ public class User {
 	
 	@Column
 	private String firstName;
+	
 	@Column
 	private String lastName;
+	
 	@Column
 	private int age;
+	
 	@Column
 	private String occupation;
 	
